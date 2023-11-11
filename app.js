@@ -41,7 +41,7 @@ for (let i = 0; i < enemySize; i++) {
     randomPosition = [randomNumber(), randomNumber()];
   }
   enemyArray[i] = randomPosition;
-  console.log("enemy " + i + " position           = " + enemyArray[i]);
+  console.log("enemy " + (i+1) + " position           = " + enemyArray[i]);
 }
 
 //generate char position
