@@ -60,7 +60,7 @@ let charPosition = [randomNumber(), randomNumber()];
 while (duplicated(enemyArray, charPosition)) {
   charPosition = [randomNumber(), randomNumber()];
 }
-console.log("\nchar position              = " + charPosition + "\n3");
+console.log("\nchar position              = " + charPosition + "\n");
 
 moveDirections.forEach(move => {
   const totalMoves = calculateMoves(move.direction, charPosition);
