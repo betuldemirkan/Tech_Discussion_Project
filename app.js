@@ -2,6 +2,17 @@ const enemyArray = [];
 const enemySize = 4;
 let totalMoves = 0;
 
+const moveDirections = [
+  { direction: [1, 0], name: "right      " },
+  { direction: [-1, 0], name: "left       " },
+  { direction: [0, 1], name: "top        " },
+  { direction: [0, -1], name: "bottom     " },
+  { direction: [1, 1], name: "topright   " },
+  { direction: [-1, 1], name: "topleft    " },
+  { direction: [1, -1], name: "bottomright" },
+  { direction: [-1, -1], name: "bottomleft " }
+];
+
 //generate random positions in 8x8 table
 function randomNumber() {
   return Math.floor(Math.random() * 8);
@@ -49,29 +60,11 @@ let charPosition = [randomNumber(), randomNumber()];
 while (duplicated(enemyArray, charPosition)) {
   charPosition = [randomNumber(), randomNumber()];
 }
-console.log("\nchar position              = " + charPosition);
-console.log(
-  "\ntotal moves to right       = " + calculateMoves([1, 0], charPosition)
-);
-console.log(
-  "total moves to left        = " + calculateMoves([-1, 0], charPosition)
-);
-console.log(
-  "total moves to top         = " + calculateMoves([0, 1], charPosition)
-);
-console.log(
-  "total moves to botttom     = " + calculateMoves([0, -1], charPosition)
-);
-console.log(
-  "total moves to topright    = " + calculateMoves([1, 1], charPosition)
-);
-console.log(
-  "total moves to topleft     = " + calculateMoves([-1, 1], charPosition)
-);
-console.log(
-  "total moves to bottomright = " + calculateMoves([1, -1], charPosition)
-);
-console.log(
-  "total moves to bottomleft  = " + calculateMoves([-1, -1], charPosition)
-);
+console.log("\nchar position              = " + charPosition + "\n3");
+
+moveDirections.forEach(move => {
+  const totalMoves = calculateMoves(move.direction, charPosition);
+  console.log(`total moves to ${move.name} = ${totalMoves}`);
+});
+
 console.log("\ntotal moves                = " + totalMoves);
