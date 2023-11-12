@@ -69,7 +69,7 @@ export class GameBoard {
 
   isWithinBounds(position: Position): boolean {
     return (
-      position.x >= 0 && position.x < 8 && position.y >= 0 && position.y < 8
+      position.x >= 0 && position.x < this.boardSize && position.y >= 0 && position.y < this.boardSize
     );
   }
 
