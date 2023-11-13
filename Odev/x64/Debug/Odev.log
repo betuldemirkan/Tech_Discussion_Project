@@ -1,0 +1,4 @@
+﻿  Odev.cpp
+C:\Users\seyma\OneDrive\Masaüstü\Odev\Odev\Odev.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\seyma\OneDrive\Masaüstü\Odev\Odev\Odev.cpp(46,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Odev.vcxproj -> C:\Users\seyma\OneDrive\Masaüstü\Odev\x64\Debug\Odev.exe
