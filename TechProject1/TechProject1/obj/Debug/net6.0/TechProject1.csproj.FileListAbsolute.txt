@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\TechProject1\TechProject1\bin\Debug\net6.0\TechProject1.exe
+C:\Users\HP\source\repos\TechProject1\TechProject1\bin\Debug\net6.0\TechProject1.deps.json
+C:\Users\HP\source\repos\TechProject1\TechProject1\bin\Debug\net6.0\TechProject1.runtimeconfig.json
+C:\Users\HP\source\repos\TechProject1\TechProject1\bin\Debug\net6.0\TechProject1.dll
+C:\Users\HP\source\repos\TechProject1\TechProject1\bin\Debug\net6.0\TechProject1.pdb
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\TechProject1.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\TechProject1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\TechProject1.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\TechProject1.AssemblyInfo.cs
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\TechProject1.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\TechProject1.dll
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\refint\TechProject1.dll
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\TechProject1.pdb
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\TechProject1.genruntimeconfig.cache
+C:\Users\HP\source\repos\TechProject1\TechProject1\obj\Debug\net6.0\ref\TechProject1.dll
